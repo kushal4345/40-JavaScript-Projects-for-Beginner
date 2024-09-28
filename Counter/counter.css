@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+.count{
+    text-align: center;
+    font-size: 50px;
+    
+}
+#Counter{
+    margin: 50px;
+    color: brown;
+}
+
+.btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+
+    
+}
+
+button{
+    border-radius: 10px;
+   padding: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    border: 2px blueviolet solid;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: yellow;
+}
