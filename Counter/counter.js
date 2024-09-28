@@ -6,16 +6,19 @@ let zer = document.getElementById("zero");
 let count = 0;
 
 inc.addEventListener("click", () => {   
-    count++;                                  // Increment count
+    count++;     
+    zer.style.color = "green"                             // Increment count
     zer.innerText = count;                    // Update the text inside the element
     console.log(count);                  
 });
-reset.addEventListener("click", () => {  
+reset.addEventListener("click", () => { 
+    zer.style.color ="white"
     count = 0;                                  // Increment count
     zer.innerText = count;                    // Update the text inside the element
     console.log(count);                      
 });
-dec.addEventListener("click", () => {    
+dec.addEventListener("click", () => {  
+    zer.style.color = "Red"  
     count--;                                  // Increment count
     zer.innerText = count;                    // Update the text inside the element
     console.log(count);               
