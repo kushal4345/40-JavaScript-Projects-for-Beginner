@@ -12,7 +12,7 @@ inc.addEventListener("click", () => {
     console.log(count);                  
 });
 reset.addEventListener("click", () => { 
-    zer.style.color ="white"
+    zer.style.color ="black"
     count = 0;                                  // Increment count
     zer.innerText = count;                    // Update the text inside the element
     console.log(count);                      
